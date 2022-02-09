@@ -1,21 +1,38 @@
 body {
-    background: #ccc;
+    background: rgba(181, 248, 242, 0.767);
+}
+
+.photo{
+    border-radius: 20px;
+    border: 3px solid rgb(3, 253, 57)
+
 }
 
 #title, .subtitle, .post_title {
-    color: rgb(3, 180, 98);
+    color: rgb(3, 180, 98); 
 }
 /*A parte de cima me parece declarações gerais e a de baixo declarações especificas. O atalho para comentários no css é ctrl+;  */
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 .post{
     background: #fff;
-    padding: 10px;
+    padding: 15px;
     border: 3px solid #000; 
     border-top-style: dotted;
     border-bottom-style: dashed;
-    border-radius: 5%;
-    margin: 10px    
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_image {
+    margin-bottom: 15px;
 }
