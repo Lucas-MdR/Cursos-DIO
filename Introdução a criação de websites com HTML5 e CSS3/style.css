@@ -12,9 +12,28 @@ body {
     color: rgb(3, 180, 98); 
 }
 /*A parte de cima me parece declarações gerais e a de baixo declarações especificas. O atalho para comentários no css é ctrl+;  */
+
+#title{
+    font-family: verdana;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.subtitle{
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: overline;
+    color: #505050;
+}
+/* Parece que nessa parte de cima foi estabelecido um padrão de aparência para a âncora. */
+
 .post_title {
     font-size: 16px;
     font-style: italic;
+    font-family: verdana, arial;
     margin: 0;
     margin-bottom: 15px;
 }
@@ -31,8 +50,24 @@ body {
 .post_content {
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post_image {
     margin-bottom: 15px;
+}
+
+.contacts_list{
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
+    color: green;
+}
+/* aqui foi tirado o padrão da âncora e estabelecidos outros valores para esse caso específico */
+
+.contact_text {
+    padding-left: 20px;
 }
