@@ -1,11 +1,13 @@
 body {
     background: rgba(181, 248, 242, 0.767);
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo{
     border-radius: 20px;
-    border: 3px solid rgb(3, 253, 57)
-
+    border: 3px solid rgb(3, 253, 57);
+    max-width: 900px;
 }
 
 #title, .subtitle, .post_title {
@@ -36,6 +38,8 @@ a {
     font-family: verdana, arial;
     margin: 0;
     margin-bottom: 15px;
+    text-align: center;
+    text-decoration: underline;
 }
 .post{
     background: #fff;
@@ -45,16 +49,19 @@ a {
     border-bottom-style: dashed;
     border-radius: 50px;
     margin-bottom: 15px;
+   
 }
 
 .post_content {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image {
     margin-bottom: 15px;
+    width: 50%;
 }
 
 .contacts_list{
@@ -70,4 +77,5 @@ a {
 
 .contact_text {
     padding-left: 20px;
+    text-align: center;
 }
